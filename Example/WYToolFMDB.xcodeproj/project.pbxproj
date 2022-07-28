@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		042022F728927B36001F2DB0 /* WYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 042022F628927B36001F2DB0 /* WYModel.m */; };
 		420A55C64A406DE679ACF911 /* Pods_WYToolFMDB_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C536E3D261571DEDC39296DC /* Pods_WYToolFMDB_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		042022F528927B36001F2DB0 /* WYModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYModel.h; sourceTree = "<group>"; };
+		042022F628927B36001F2DB0 /* WYModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYModel.m; sourceTree = "<group>"; };
 		0DF12C3760490E04A92DCAC4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		52BE0160A3BE9014A20DEEFE /* Pods-WYToolFMDB_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYToolFMDB_Example.release.xcconfig"; path = "Target Support Files/Pods-WYToolFMDB_Example/Pods-WYToolFMDB_Example.release.xcconfig"; sourceTree = "<group>"; };
 		57E87DD3F0855B0F92E92E1C /* Pods-WYToolFMDB_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYToolFMDB_Tests.debug.xcconfig"; path = "Target Support Files/Pods-WYToolFMDB_Tests/Pods-WYToolFMDB_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -95,6 +98,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		042022F428927B24001F2DB0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				042022F528927B36001F2DB0 /* WYModel.h */,
+				042022F628927B36001F2DB0 /* WYModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		51C0E7FBFE765276E9E17E95 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -148,6 +160,7 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* WYViewController.h */,
 				6003F5A6195388D20070C39A /* WYViewController.m */,
+				042022F428927B24001F2DB0 /* Model */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -370,6 +383,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* WYAppDelegate.m in Sources */,
+				042022F728927B36001F2DB0 /* WYModel.m in Sources */,
 				6003F5A7195388D20070C39A /* WYViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
