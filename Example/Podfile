@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'WYToolFMDB_Example' do
+  pod 'WYToolFMDB', :path => '../'
+
+  target 'WYToolFMDB_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,25 @@
+PODS:
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - WYToolFMDB (1.0.0):
+    - FMDB
+
+DEPENDENCIES:
+  - WYToolFMDB (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FMDB
+
+EXTERNAL SOURCES:
+  WYToolFMDB:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  WYToolFMDB: 06c4c14cf2e5709a5f32f9398bc553a3c829f029
+
+PODFILE CHECKSUM: 878ddf776ebc7f4d2f3df8d8bd22e4468a2614b0
+
+COCOAPODS: 1.11.3
