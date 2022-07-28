@@ -25,6 +25,8 @@
 
 - (void)createView {
     self.title = @"WYToolFMDB";
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
